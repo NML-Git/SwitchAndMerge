@@ -1,6 +1,6 @@
 # Post-processing scripts
 
-These scripts perform downstream analysis of library data that has been subjected to PHASTpep pt 1, to get an output of unique sequences and counts of each. Some of the scripts may also take as input the PHASTpep pt 2 output. The exact formats needed are specified in the header of the individual scripts and the sections below.
+These scripts perform downstream analysis of library data that has been subjected to PHASTpep pt 1, to get an output of unique sequences and counts of each. Some of the scripts may also take as input the PHASTpep pt 2 output. The exact formats needed are specified in the header of the individual scripts.
 
 The scripts generate a workflow that allows one to remove known target-unrelated peptides (TUPs) from a given library with `RemoveTUPsFromCounts.m`, after which we can locate sequence motif patterns that still remains in the library with `SearchForRepeats.m`. The exact matches to specific motifs may be elucidated with `ShowRepeatResults.m`.
 
